@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ogrenci_yaz_okulu_basvuru"
+    android:background="@drawable/arkaplan_genel"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4500px">
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="1349dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="281dp"
+            android:text="\nBilgilerinizi eksiksiz doldurduktan sonra belge indir butonu ile belgeyi indirip çıktısını imzalayıp aşağıdaki gerekli ek belgeler ile birlikte sisteme geri yüklemeniz gerekmektedir. Bu bilgileri sağlamayan başvurular değerlendirmeye alınmayacaktır.\n\nBaşvuru için gereken ekler:\n\n 1- Yaz okulu harç borcunun ödendiğine dair dekont (Aslı)" />
+
+        <Button
+            android:id="@+id/buton_ogrenci_basvuru_yazokulu_belge_yukle"
+            style="@style/button"
+            android:layout_width="169dp"
+            android:layout_height="44dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1678dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/basvurubelgesi_buton_gorunumleri"
+            android:text="Başvuru Belgesi Yükle" />
+
+        <Button
+            android:id="@+id/buton_ogrenci_basvuru_yazokulu_belge_indir"
+            style="@style/button"
+            android:layout_width="169dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="1678dp"
+            android:background="@drawable/basvurubelgesi_buton_gorunumleri"
+            android:text="Başvuru Belgesi İndir" />
+
+        <CheckBox
+            android:id="@+id/checkBox_ogrenci_basvuru_yazokulu_onay"
+            style="@style/tw_style"
+            android:layout_width="369dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="1868dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="98dp"
+            android:text="Bilgilerimin doğruluğunu kontrol ettim, onaylıyorum. (Bu işlem geri alınamaz)" />
+
+        <EditText
+            android:id="@+id/yaz_dosya_adi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="#00FFFFFF"
+            android:textColor="#00FFFFFF"
+            android:translationY="1930dp" />
+
+        <Button
+            android:id="@+id/buton_ogrenci_basvuru_yazokulu_dekont_yukle"
+            style="@style/button"
+            android:layout_width="169dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="1795dp"
+            android:background="@drawable/basvurubelgesi_buton_gorunumleri"
+            android:text="Dekont Yükle"
+            android:textSize="14dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1067dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-97dp"
+            android:background="#66FFFFFF">
+
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders2_almakistenilenakts2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="231dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_ders2_dersadi2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="200dp"
+                android:text="Ders Adı" />
+
+            <TextView
+                android:id="@+id/tw_ogrenci_yazokulu_ders2_AKTS2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="56dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-127dp"
+                android:layout_marginTop="231dp"
+                android:layout_marginEnd="328dp"
+                android:layout_toEndOf="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_ders"
+                android:text="A.K.T.S" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders2_almakistenilenders"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="200dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/tw_yaz_okulu_basvuru_ders_secimi_ders2_baslik2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-128dp"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="85dp"
+                android:text="Öğrencisi Olduğunuz Fakülte Dersi"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tw_yaz_okulu_basvuru_ders_secimi_ders2_baslik"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-128dp"
+                android:layout_marginTop="171dp"
+                android:layout_marginEnd="25dp"
+                android:text="Başvurduğunuz Üniversiteden Almak İstediğiniz Ders"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tw_yazokulu_basvuru_ders_secimi_ders2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="11dp"
+                android:text="2.Ders" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders2_AKTS"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="103dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_ders2_dersadi"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="72dp"
+                android:text="Ders Adı" />
+
+            <TextView
+                android:id="@+id/tw_ogrenci_yazokulu_ders2_AKTS"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="56dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-127dp"
+                android:layout_marginTop="103dp"
+                android:layout_marginEnd="328dp"
+                android:layout_toEndOf="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_ders"
+                android:text="A.K.T.S" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders2_dersadi"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="72dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="766dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-97dp"
+            android:background="#66FFFFFF">
+
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders1_almakistenilenakts2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="231dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_ders1_dersadi2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="200dp"
+                android:text="Ders Adı" />
+
+            <TextView
+                android:id="@+id/tw_ogrenci_yazokulu_ders1_AKTS2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="56dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-127dp"
+                android:layout_marginTop="231dp"
+                android:layout_marginEnd="328dp"
+                android:layout_toEndOf="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_ders"
+                android:text="A.K.T.S" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders1_almakistenilenders"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="200dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/tw_yaz_okulu_basvuru_ders_secimi_ders1_baslik2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-128dp"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="85dp"
+                android:text="Öğrencisi Olduğunuz Fakülte Dersi"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tw_yaz_okulu_basvuru_ders_secimi_der1_baslik"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-128dp"
+                android:layout_marginTop="171dp"
+                android:layout_marginEnd="25dp"
+                android:text="Başvurduğunuz Üniversiteden Almak İstediğiniz Ders"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tw_yazokulu_basvuru_ders_secimi_ders1"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="11dp"
+                android:text="1.Ders" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders1_AKTS"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="103dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_ders1_dersadi"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="72dp"
+                android:text="Ders Adı" />
+
+            <TextView
+                android:id="@+id/tw_ogrenci_yazokulu_ders1_AKTS"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="56dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-127dp"
+                android:layout_marginTop="103dp"
+                android:layout_marginEnd="328dp"
+                android:text="A.K.T.S" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_yazokulu_ders1_dersadi"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="72dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_tarih"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="676dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_tarih"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="673dp"
+            android:text="Tarih" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_basvuru_universite"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="636dp"
+            android:text="Üniversite" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_basvuru_universite"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="639dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <TextView
+            android:id="@+id/tw_yazokulu_basvurubilgileri"
+            style="@style/tw_style"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginEnd="95dp"
+            android:text="Başvuru Bilgileri"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view11"
+            android:layout_width="900px"
+            android:layout_height="0.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="609dp"
+            android:layout_marginEnd="42dp"
+            android:background="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_adres"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="448dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_kayityil"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_adres"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="445dp"
+            android:text="Sınıf" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_yil"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="485dp"
+            android:text="Kayıt Yılı" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_numara"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="302dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_tckimlik"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="339dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_tckimlik"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="336dp"
+            android:text="T.C. No" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_numara"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="299dp"
+            android:text="Numara" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_eposta"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_telno"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="412dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_telno"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="409dp"
+            android:text="Danışman" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_eposta"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="372dp"
+            android:text="E-Posta" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_fakulte"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_fakulte"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="226dp"
+            android:text="Fakülte" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_bolum"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="263dp"
+            android:text="Bölüm" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_bolum"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="266dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <TextView
+            android:id="@+id/tw_yazokulu_ogrencibilgileri"
+            style="@style/tw_style"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="84dp"
+            android:text="Öğrenci Bilgileri"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="900px"
+            android:layout_height="0.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="42dp"
+            android:background="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_soyad"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="193dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_soyad"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="190dp"
+            android:text="Soyad" />
+
+        <Button
+            android:id="@+id/button_ogrenci_yazokulu_ustbilgi"
+            style="@style/basvuru_formu_ust_bilgi"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:clickable="false"
+            android:layout_marginStart="55dp"
+            android:background="@drawable/basvuru_formlar_ustbilgi"
+            android:text="Yaz Okulu Başvurusu" />
+
+        <TextView
+            android:id="@+id/tw_ogrenci_yazokulu_ad"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="153dp"
+            android:text="Ad" />
+
+        <EditText
+            android:id="@+id/et_ogrenci_yazokulu_ad"
+            style="@style/et_style"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="42dp"
+            android:background="@drawable/metin_kutusu_kenarlari" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

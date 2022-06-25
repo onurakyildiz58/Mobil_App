@@ -1,0 +1,2554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basvuru_arkaplan"
+    tools:context=".ogrenci_ders_intibaki_basvuru"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="10500px"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView23"
+            style="@style/tw_style"
+            android:layout_width="382dp"
+            android:layout_height="108dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="3572dp"
+            android:layout_marginBottom="281dp"
+            android:text="\nBilgilerinizi eksiksiz doldurduktan sonra belge indir butonu ile belgeyi indirip çıktısını imzalayıp sisteme geri yüklemeniz gerekmektedir." />
+
+        <Button
+            android:id="@+id/button_ders_intibaki_basvuru_belge_indir"
+            style="@style/button"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="3732dp"
+            android:background="@drawable/basvurubelgesi_buton_gorunumleri"
+            android:padding="15px"
+            android:text="Başvuru Belgesi İndir"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/checkbox_ders_intibaki_basvuru_onay"
+            style="@style/tw_style"
+            android:layout_width="369dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="3825dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="98dp"
+            android:text="Bilgilerimin doğruluğunu kontrol ettim, onaylıyorum. (Bu işlem geri alınamaz)" />
+
+        <EditText
+            android:id="@+id/intibak_dosyaadi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="#00FFFFFF"
+            android:textColor="#00FFFFFF"
+            android:translationY="3880dp" />
+
+        <Button
+            android:id="@+id/button_ders_intibaki_basvuru_belge_yukle"
+            style="@style/button"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button_ders_intibaki_basvuru_belge_indir"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="3732dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/button_ders_intibaki_basvuru_belge_indir"
+            android:background="@drawable/basvurubelgesi_buton_gorunumleri"
+            android:padding="10px"
+            android:text="Başvuru Belgesi Yükle"
+            android:textAlignment="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="672dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="2880dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-97dp"
+            android:background="#66FFFFFF">
+
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="537dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="538dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="243dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_akts3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_4yariyil_baslik"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="377dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="34dp"
+                android:text="Önceki Bölümde Başarılı Olduğu Dersler" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_4yariyil"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="11dp"
+                android:text="IV.Yarıyıl" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_4yariyil_ders"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="88dp"
+                android:text="Ders" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_4yariyil_AKTS"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="17dp"
+                android:layout_toEndOf="@+id/tw_ders_intibaki_basvuru_ders_secimi_4yariyil_ders"
+                android:text="A.K.T.S." />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_4yariyil_baslik2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="385dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="372dp"
+                android:layout_marginEnd="23dp"
+                android:text="İntibak Edeceği Bölümde Yükümlü Olduğu Dersler"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="242dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_4yariyil_ders8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="672dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="2187dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="-97dp"
+            android:background="#66FFFFFF">
+
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="537dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="538dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="243dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_akts3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_3yariyil_baslik"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="377dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="34dp"
+                android:text="Önceki Bölümde Başarılı Olduğu Dersler" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_3yariyil"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="11dp"
+                android:text="III.Yarıyıl" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_3yariyil_ders"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="88dp"
+                android:text="Ders" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_3yariyil_AKTS"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="17dp"
+                android:layout_toEndOf="@+id/tw_ders_intibaki_basvuru_ders_secimi_3yariyil_ders"
+                android:text="A.K.T.S." />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_3yariyil_baslik2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="385dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="372dp"
+                android:layout_marginEnd="23dp"
+                android:text="İntibak Edeceği Bölümde Yükümlü Olduğu Dersler"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="242dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_3yariyil_ders8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="672dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1496dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-97dp"
+            android:background="#66FFFFFF">
+
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="537dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="538dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="243dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_akts3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_2yariyil_baslik"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="377dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="34dp"
+                android:text="Önceki Bölümde Başarılı Olduğu Dersler" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_2yariyil"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="11dp"
+                android:text="II.Yarıyıl" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_2yariyil_ders"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="88dp"
+                android:text="Ders" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_2yariyil_AKTS"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="17dp"
+                android:layout_toEndOf="@+id/tw_ders_intibaki_basvuru_ders_secimi_2yariyil_ders"
+                android:text="A.K.T.S." />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_2yariyil_baslik2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="385dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="372dp"
+                android:layout_marginEnd="23dp"
+                android:text="İntibak Edeceği Bölümde Yükümlü Olduğu Dersler"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="242dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_2yariyil_ders8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_derssecimi"
+            style="@style/tw_style"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="750dp"
+            android:layout_marginEnd="143dp"
+            android:text="Ders Seçimi"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view_dersintibaki_ogrenci_bilgileri3"
+            android:layout_width="900px"
+            android:layout_height="0.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="779dp"
+            android:layout_marginEnd="34dp"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="465dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="700dp"
+            android:background="#66FFFFFF">
+
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_devametyukogrkurum"
+                style="@style/tw_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="31dp"
+                android:text="Devam Etmekte Olduğu Yük. Öğr. Kurumu" />
+
+            <TextView
+                android:id="@+id/te_ders_intibaki_basvuru_devametyukogrkurumbolum"
+                style="@style/tw_style"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginEnd="128dp"
+                android:layout_marginBottom="169dp"
+                android:text="Bölümü/Programı" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_intetyukogrkurum"
+                style="@style/tw_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="146dp"
+                android:layout_marginEnd="52dp"
+                android:text="İntibak Ettiriliecek Yük. Öğr. Kurumu" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_intetyukogrkurumbolum"
+                style="@style/tw_style"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="139dp"
+                android:layout_marginTop="203dp"
+                android:layout_marginEnd="135dp"
+                android:text="Bölüm/Program" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_devametyukogrkurum"
+                style="@style/et_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="96dp"
+                android:layout_marginEnd="96dp"
+                android:layout_marginBottom="202dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_intetyukogrkurum"
+                style="@style/et_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="96dp"
+                android:layout_marginEnd="97dp"
+                android:layout_marginBottom="68dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_devametyukogrkurumbolum"
+                style="@style/et_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="96dp"
+                android:layout_marginEnd="96dp"
+                android:layout_marginBottom="145dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_intetyukogrkurumbolum"
+                style="@style/et_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="95dp"
+                android:layout_marginEnd="97dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="672dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="807dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-97dp"
+            android:background="#66FFFFFF">
+
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="537dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts9"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="409dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="9" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts10"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="440dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="10" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts11"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="473dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="11" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts12"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="505dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="12" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts13"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="538dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="13" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts14"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="568dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="14" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts15"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="600dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="15" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts16"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="631dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="16" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="243dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_akts3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="329dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_baslik"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="377dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="34dp"
+                android:text="Önceki Bölümde Başarılı Olduğu Dersler" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="11dp"
+                android:text="I.Yarıyıl" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_ders"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="88dp"
+                android:text="Ders" />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_AKTS"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="275dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="17dp"
+                android:layout_toEndOf="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_ders"
+                android:text="A.K.T.S." />
+
+            <TextView
+                android:id="@+id/tw_ders_intibaki_basvuru_ders_secimi_1yariyil_baslik2"
+                style="@style/tw_ders_secimi_style"
+                android:layout_width="385dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="372dp"
+                android:layout_marginEnd="23dp"
+                android:text="İntibak Edeceği Bölümde Yükümlü Olduğu Dersler"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders1"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="114dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders2"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="145dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="2" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders3"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="178dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="3" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders4"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="4" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders5"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="242dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="5" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders6"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="273dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="6" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders7"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="305dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="7" />
+
+            <EditText
+                android:id="@+id/et_ders_intibaki_basvuru_ders_secimi_1yariyil_ders8"
+                style="@style/et_ders_secimi_style"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="336dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="8" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_dersintibaki_ogrenci_bilgileri2"
+            android:layout_width="900px"
+            android:layout_height="0.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="359dp"
+            android:layout_marginEnd="34dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_ogrenci_bilgileri3"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="118dp"
+            android:text="Öğrenci Bilgileri"
+            android:textSize="20dp" />
+
+        <View
+            android:id="@+id/view_dersintibaki_ogrenci_bilgileri"
+            android:layout_width="900px"
+            android:layout_height="0.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginEnd="34dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/ders_intibaki_basvuru_ustbilgi"
+            style="@style/basvuru_formu_ust_bilgi"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:clickable="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/basvuru_formlar_ustbilgi"
+            android:text="Ders İntibakı Başvurusu" />
+
+        <EditText
+            android:id="@+id/et_ders_intibaki_basvuru_ad"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="41dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_basvuru_soyad"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tw_ders_intibaki_basvuru_ad"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="19dp"
+            android:text="Soyad" />
+
+        <EditText
+            android:id="@+id/et_ders_intibaki_basvuru_soyad"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_ders_intibaki_basvuru_ad"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="41dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_basvuru_ogrno"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tw_ders_intibaki_basvuru_soyad"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="20dp"
+            android:text="Öğrenci No" />
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_basvuru_kayitturu"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tw_ders_intibaki_basvuru_ogrno"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="19dp"
+            android:text="Kayıt Türü" />
+
+        <EditText
+            android:id="@+id/et_ders_intibaki_basvuru_kayitturu"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_ders_intibaki_basvuru_ogrno"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="41dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_basvuru_ogryili"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tw_ders_intibaki_basvuru_kayitturu"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="20dp"
+            android:text="Öğrenim Yılı" />
+
+        <EditText
+            android:id="@+id/et_ders_intibaki_basvuru_ogryili"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_ders_intibaki_basvuru_kayitturu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="41dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_basvuru_ad"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="133dp"
+            android:text="Ad" />
+
+        <EditText
+            android:id="@+id/et_ders_intibaki_basvuru_ogrno"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_ders_intibaki_basvuru_soyad"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="41dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tw_ders_intibaki_basvuru_intiedilecekyariyil"
+            style="@style/tw_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="384dp"
+            android:layout_marginEnd="111dp"
+            android:text="İntibak Edeceği Yarıyıl" />
+
+        <EditText
+            android:id="@+id/et_ders_intibaki_basvuru_intiedilecekyariyil"
+            style="@style/et_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="416dp"
+            android:layout_marginEnd="120dp"
+            android:background="@drawable/metin_kutusu_kenarlari"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+    </RelativeLayout>
+</ScrollView>

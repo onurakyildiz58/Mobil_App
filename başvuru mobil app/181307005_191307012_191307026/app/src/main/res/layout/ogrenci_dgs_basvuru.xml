@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan_genel"
+    tools:context=".ogrenci_dgs_basvurusu">
+
+
+    <TextView
+        android:id="@+id/ogrenci_dgs_basvuru_bilgi"
+        style="@style/tw_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="56dp"
+        android:text="                                  BİLGİ \n\nDikey geçiş sınavı için başvurular ÖSYM'nin websitesinden alınmaktadır."
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ogrenci_dgs_bsvuru_link_butonu"
+        style="@style/button"
+        android:layout_width="185dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="369dp"
+        android:background="@drawable/buton_gorunumleri"
+        android:text="ÖSYM-AİS" />
+
+</RelativeLayout>

@@ -1,0 +1,382 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basvuru_arkaplan"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:focusableInTouchMode="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="410dp"
+            android:layout_height="1250dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ogrenci_kaydol_imageview"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/ic_baseline_add_a_photo_24"
+                android:clickable="true"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Ad"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="220dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_ad"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:translationX="10dp"
+                android:translationY="260dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Soyad"
+                style="@style/tw_style"
+                android:translationX="220dp"
+                android:translationY="220dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_soyad"
+                style="@style/et_style"
+                android:layout_width="175dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:translationX="220dp"
+                android:translationY="260dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="Öğrenci TC"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="320dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_ogrtc"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:translationX="10dp"
+                android:translationY="360dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Doğum Tarihi"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="420dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_dogumtarihi"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:translationX="10dp"
+                android:translationY="460dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="195dp"
+                android:layout_height="40dp"
+                android:text="Telefon Numarası"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="520dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_ogrtelno"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textAlignment="center"
+                android:translationX="10dp"
+                android:translationY="560dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="Öğrenci Adres"
+                style="@style/tw_style"
+                android:translationX="220dp"
+                android:translationY="320dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="İş Adres"
+                style="@style/tw_style"
+                android:translationX="220dp"
+                android:translationY="520dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Üniversite"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="620dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_uni"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:translationX="10dp"
+                android:translationY="660dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Fakülte"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="720dp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/et_ogrenci_kaydol_fakulte"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textAlignment="center"
+                android:translationX="10dp"
+                android:translationY="760dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="Bölüm"
+                style="@style/tw_style"
+                android:translationX="220dp"
+                android:translationY="720dp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/et_ogrenci_kaydol_bolum"
+                style="@style/et_style"
+                android:layout_width="172dp"
+                android:layout_height="39dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textAlignment="center"
+                android:translationX="220dp"
+                android:translationY="760dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Öğrenci No"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="820dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_ogrno"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textAlignment="center"
+                android:translationX="10dp"
+                android:translationY="860dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Sınıf"
+                style="@style/tw_style"
+                android:translationX="220dp"
+                android:translationY="820dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_sinif"
+                style="@style/et_style"
+                android:layout_width="173dp"
+                android:layout_height="41dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textAlignment="center"
+                android:translationX="220dp"
+                android:translationY="860dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Öğrenci Mail"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="1020dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_mail"
+                style="@style/et_style"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textAlignment="center"
+                android:translationX="10dp"
+                android:translationY="1060dp"
+                tools:ignore="LabelFor" />
+
+            <Button
+                android:id="@+id/button_ogrenci_kaydol"
+                style="@style/button"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/buton_gorunumleri"
+                android:text="Kaydı Tamamla"
+                android:translationX="110dp"
+                android:translationY="1150dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_ogradres"
+                style="@style/et_style"
+                android:layout_width="172dp"
+                android:layout_height="136dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="360dp"
+                android:layout_marginEnd="18dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textAlignment="textStart"
+                tools:ignore="Autofill,LabelFor" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_isadresi"
+                style="@style/et_style"
+                android:layout_width="172dp"
+                android:layout_height="135dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="561dp"
+                android:layout_marginEnd="18dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textAlignment="textStart"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Öğrenci Şifre"
+                style="@style/tw_style"
+                android:translationX="10dp"
+                android:translationY="920dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/et_ogrenci_kaydol_ogrsifre"
+                style="@style/et_style"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:background="@drawable/metin_kutusu_kenarlari"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text=""
+                android:textAlignment="center"
+                android:translationX="10dp"
+                android:translationY="960dp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <CheckBox
+                android:id="@+id/cb_ogrenci_kaydol_sifregoster"
+                style="@style/et_style"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Şifre Göster"
+                android:textColor="@color/white"
+                android:translationX="200dp"
+                android:translationY="960dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

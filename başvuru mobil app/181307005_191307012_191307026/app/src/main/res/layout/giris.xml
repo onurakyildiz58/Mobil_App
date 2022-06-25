@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan_genel"
+    tools:context=".giris">
+
+
+    <ImageView
+        android:id="@+id/imageview_ogrenci_giris_kou"
+        android:layout_width="480px"
+        android:layout_height="480px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/kou_amblem" />
+
+    <TextView
+        android:id="@+id/tw_ogrenci_giris_ustbilgi"
+        style="@style/tw_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="268dp"
+        android:text="KOÜ Başvuru Giriş"
+        android:textSize="23sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="1080px"
+        android:layout_height="50px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#71113D12" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="1080px"
+        android:layout_height="50px"
+        android:background="#71113D12" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_kaydol"
+        style="@style/button"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/buton_gorunumleri"
+        android:hapticFeedbackEnabled="false"
+        android:text="Kaydol"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_sifremi_unuttum"
+        style="@style/button"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/buton_gorunumleri"
+        android:hapticFeedbackEnabled="false"
+        android:text="Şifremi Unuttum"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_giris"
+        style="@style/button"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/buton_gorunumleri"
+        android:hapticFeedbackEnabled="false"
+        android:text="Giriş"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tw_giris_ekrani_mail"
+        style="@style/tw_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="350dp"
+        android:text="Öğrenci Mail" />
+
+    <EditText
+        android:id="@+id/et_giris_ogrenci_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="310dp"
+        android:background="@drawable/metin_kutusu_kenarlari"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tw_giris_ekrani_sifre"
+        style="@style/tw_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="270dp"
+        android:text="Şifre" />
+
+    <EditText
+        android:id="@+id/et_giris_ogrenci_sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/metin_kutusu_kenarlari"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <CheckBox
+        android:id="@+id/ch_giris_sifregoster"
+        style="@style/et_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Şifre Göster"
+        android:textColor="@color/white"
+        android:translationY="150dp" />
+
+    <Button
+        android:id="@+id/button_giris_ekrani_akademisyen"
+        style="@style/button"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/akademisyen_buton"
+        android:text="Akademisyen Girişi"
+        android:textSize="12dp" />
+
+</RelativeLayout>

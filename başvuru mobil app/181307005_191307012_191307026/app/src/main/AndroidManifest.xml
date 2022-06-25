@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.berk.odevberk">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OdevBerk">
+        <activity
+            android:name=".ogrenci_devam_eden_basvurular"
+            android:exported="true" />
+        <activity
+            android:name="akademisyen_basvuru_belgeleri"
+            android:exported="true"/>
+        <activity
+            android:name=".ogrenci_biten_basvurular"
+            android:exported="true" />
+        <activity
+            android:name=".akademisyen_basvurular"
+            android:exported="true" />
+        <activity
+            android:name=".akademisyen_sifre_unuttum"
+            android:exported="true" />
+        <activity
+            android:name=".akademisyen_giris"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_dgs_basvurusu"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_yaz_okulu_basvuru"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_cap_basvurusu"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_sifremi_unuttum"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_ders_intibaki_basvuru"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_yatay_gecis_basvuru"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_ana_ekran"
+            android:exported="true" />
+        <activity
+            android:name=".ogrenci_kaydol"
+            android:exported="true" />
+        <activity
+            android:name=".giris"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

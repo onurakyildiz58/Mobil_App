@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan_ana_ekran"
+    android:id="@+id/ogrenci_ana_ekran"
+    tools:context=".ogrenci_ana_ekran">
+
+
+    <Button
+        android:id="@+id/buton_main_cikis"
+        style="@style/button"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ana_ekran_basvuru_butonlari"
+        android:text="Çıkış" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_basvuruyap_yazokulu"
+        style="@style/button"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/ana_ekran_basvuru_butonlari"
+        android:text="Yaz Okulu Başvurusu Yap"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_basvuruyap_yataygecis"
+        style="@style/button"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/ana_ekran_basvuru_butonlari"
+        android:text="Yatay Geçiş Başvurusu Yap"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_basvuruyap_dersintibaki"
+        style="@style/button"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="381dp"
+        android:background="@drawable/ana_ekran_basvuru_butonlari"
+        android:text="Ders İntibakı Başvurusu Yap"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_basvuruyap_cap"
+        style="@style/button"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="451dp"
+        android:background="@drawable/ana_ekran_basvuru_butonlari"
+        android:text="ÇAP Başvurusu Yap" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_basvuruyap_dikeygecis"
+        style="@style/button"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="523dp"
+        android:background="@drawable/ana_ekran_basvuru_butonlari"
+        android:text="DGS Başvurusu Yap" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_main_pp"
+        android:layout_width="78dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/tv_main_OgrBolum"
+        android:layout_width="270dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_main_OgrAd"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="160dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_main_OgrSoyad"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_main_OgrNo"
+        android:layout_width="270dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_devam_basvurular"
+        style="@style/button"
+        android:layout_width="150dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/buton_gorunumleri"
+        android:text="Devam Eden Başvurularım"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buton_ogrenci_biten_basvurular"
+        style="@style/button"
+        android:layout_width="150dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/buton_gorunumleri"
+        android:text="Biten Başvurularım"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

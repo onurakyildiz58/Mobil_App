@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/akademisyen_basvuru_birtanesi_arkaplan"
+    android:padding="16dp">
+
+
+    //HER BİLGİNİN NE ŞEKİLDE GÖRÜNTÜLENECEĞİNİ(SATIR ŞEKLİNDE) AYARLAMAK İÇİN EKSTRA BİR LAYOUTDOSYASI
+    <TextView
+        android:layout_height="56dp"
+        android:layout_width="207dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="TextView"
+        android:id="@+id/tw_akadmeisyen_tekbilgi_ad"/>
+
+    <Button
+        android:background="@drawable/buton_gorunumleri"
+        android:layout_height="33dp"
+        android:layout_width="74dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="12sp"
+        android:text="Onayla"
+        android:id="@+id/button_akademisyen_basvuru_onay"
+        app:layout_constraintVertical_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingStart="0dp" style="@style/button"/>
+
+    <Button
+        android:background="@drawable/buton_gorunumleri"
+        android:layout_height="33dp"
+        android:layout_width="74dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="11sp"
+        android:text="Reddet"
+        android:id="@+id/button_akademisyen_basvuru_ret"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingStart="0dp"
+        style="@style/button"/>
+
+    <Button
+        android:background="@drawable/buton_gorunumleri"
+        android:layout_height="25dp"
+        android:layout_width="143dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="12sp"
+        android:text="Başvuruyu İndir"
+        android:id="@+id/button_akademisyen_bavuru_belgesini_indir"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingStart="0dp"
+        style="@style/button"/>
+
+    <TextView
+        android:layout_height="25dp"
+        android:layout_width="64dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#686767"
+        android:text="TextView"
+        android:id="@+id/tw_akadmeisyen_tekbilgi_url"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#686767"
+        android:text="TextView"
+        android:id="@+id/tw_akademisyen_basvuruekrani_basvuru_durumu"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:text="Başvuru Durumu"
+        android:id="@+id/textView5"
+        app:layout_constraintVertical_bias="0.752"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
