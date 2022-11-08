@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flappy Bird</string>
+
+    <string name="Btn_gameOver">Tekrar Dene</string>
+    <string name="puanTXT">PUAN</string>
+    <string name="puan">0</string>
+    <string name="maxScoreTXT">En iyi</string>
+    <string name="maxScore">0</string>
+</resources>
